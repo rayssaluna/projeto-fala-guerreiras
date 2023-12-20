@@ -43,12 +43,12 @@ body {
 .imagem-de-fundo {
     width: 100%;
     height: 100%;
-    position: absolute;
+    position: relative;
     object-fit: cover;
 }
 
 .imagem-sobreposta {
-    position: relative;
+    position: absolute;
     top:10%;
     left: 10%;
     width: 80%;
