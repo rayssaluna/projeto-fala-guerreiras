@@ -1,4 +1,4 @@
-![logo do projeto](imgs/fala-guerreira.jpeg)
+![logo do projeto](imgs/logoobirin.png)
 
 <p align="center">
 
