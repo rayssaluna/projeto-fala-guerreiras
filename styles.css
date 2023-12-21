@@ -37,7 +37,7 @@ body {
 
 .index{
     background-color: #000000;
-    flex-shrink: 0;
+    
     display: flex;
     justify-content: center;
        
