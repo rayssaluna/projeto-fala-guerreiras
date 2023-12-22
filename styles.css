@@ -4,12 +4,9 @@
 --preto-principal: #000000;
 --branco-principal:#ffff;
 --fonte-principal: 'Inter', sans-serif;
-
 }
-
 body {
     background-color:var(--branco-principal);
-
 }
 .css-geral{
     margin: 1;
@@ -26,33 +23,27 @@ body {
     margin: 1em 0 2em 0;
     width: 104,9rem;
     height: 59,8rem;
-  
 }
-
 .cabecalho_link {
     text-decoration: none;
     text-align: center;
     color: var(--preto-principal);
 }
-
 .index{
     background-color: #000000;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-       
 }
 .index_img{
-    margin: 5em 0 5em 0;
+    padding: 5em 0 5em 0;
     width: 900px;
     height: 500px;
-
+    
 }
-
 .about{
     background-color: #000000;
     display: flex;
-    
 }
 .about img{
     margin: 7em;
@@ -100,7 +91,6 @@ body {
     position: absolute;
     object-fit: cover;
 }
-
 .imagem-sobreposta {
     position: relative;
     top:10%;
@@ -109,43 +99,32 @@ body {
     height: 80%;
     object-fit: fill;
 }
-
-
 .documentario {
     background-color: #000000;
     display: flex;
     flex-wrap: wrap;
     justify-content: right;
 }
-
 .documentario_img{
     margin: 7em;
-    width: 606px;
-    height: 332px; 
-    padding: 2em 1em 2em 1em;
-
+    width: 562px;
+    height: 135px; 
+    
 }
-
 .documentario_texto{
     background-color: #D7D7D7;
-    border-radius: 10px;
+    border-radius: 1px;
     margin: 7em;
     border: solid 2px #F54952;
     padding: 2em;
-    text-align:justify;
-    text-decoration: none;
+    text-align: justify;
     font-family: var(--fonte-principal);
-    font-size: 19px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal; 
 }
 .rodape{
-    display:flex;
-    justify-content: center;
-    padding: 5em 0 0 5em;
-    gap: 5%;
+    padding: 5px;
     background: white;
+    align-items:flex-end
+    position: relative;
+    justify-content: left;
   
-    
 }
