@@ -55,7 +55,6 @@ padding:0 0 0 1;
     padding: 5em 0 5em 0;
     width: 900px;
     height: 500px;
-    padding: 10em 1em 5em 1em; 
     
 }
 .about{
@@ -67,7 +66,6 @@ padding:0 0 0 1;
     margin: 7em;
     width: 449px;
     height: 500px;
-    padding: 10em 1em 5em 1em; 
 }
 
 .texto{
@@ -88,12 +86,12 @@ padding:0 0 0 1;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    }
+}
 .revistas img{
     width: 220px;
     height: 340px;
     /* cima direita embaixo esquerda */
-    padding: 10em 1em 5em 1em; 
+    padding: 5em 1em 5em 1em; 
 }
 .container_botao{
     color: var(--branco-principal);
@@ -106,7 +104,12 @@ padding:0 0 0 1;
     width: 24px;
     height: 24px;
 }
-
+.imagem-de-fundo {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+}
 .imagem-sobreposta {
     position: relative;
     top:10%;
@@ -124,7 +127,7 @@ padding:0 0 0 1;
 }
 .documentario_img{
     width: 562px;
-    height: 135px;
+    height: 135px; 
     
 }
 .documentario_texto{
@@ -139,6 +142,13 @@ padding:0 0 0 1;
 .rodape {
     padding: 5px;
     background: white;
+    justify-content: space-around;
   
 }
+.rodape_falag {
+  align-items: center; 
+}
 
+.rodape_logo {
+    align-items: center; 
+}
