@@ -94,6 +94,13 @@ body {
     border: solid 2px #F54952;
     padding: 2em;
     text-align: justify;
+<<<<<<< HEAD
+=======
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+>>>>>>> 07953a6e0ea509a115d98596fdfeee524423d62e
     font-family: var(--fonte-principal);
 }
 
