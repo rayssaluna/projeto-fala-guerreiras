@@ -110,7 +110,7 @@ line-height: normal;
     width: 220px;
     height: 340px;
     /* cima direita embaixo esquerda */
-    padding: 10em 1em 10em 1em; 
+    padding: 09em 1em 10em 1.6em; 
 }
 .container_botao{
     color: var(--branco-principal);
