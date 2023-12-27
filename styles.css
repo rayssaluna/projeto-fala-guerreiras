@@ -159,6 +159,7 @@ body {
     padding: 2em;
     text-align: justify;
     font-family: var(--fonte-principal);
+    font-size: 20px;
 }
 .rodape {
     padding: 5px;
