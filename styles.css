@@ -107,10 +107,10 @@ line-height: normal;
     align-items: center;
 }
 .revistas img{
-    width: 220px;
+    width: 200px;
     height: 340px;
     /* cima direita embaixo esquerda */
-    padding: 09em 1em 10em 1.6em; 
+    padding: 09em 1em 10em 0em; 
 }
 .container_botao{
     color: var(--branco-principal);
