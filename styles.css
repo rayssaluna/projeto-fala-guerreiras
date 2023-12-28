@@ -60,6 +60,7 @@ body {
     justify-content: center;
     
 }
+
 .texto_p_index{
     color: #FFF;
     font-family: var(--fonte-principal);
@@ -67,14 +68,13 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal; 
-        
+      
     }
 .index_img{
     padding: 10em 50em 5em 20em;
     width: 1000px;
     height: 600px;
 }
-
 
 .container_about{
     background-color: #000000;   
@@ -96,9 +96,7 @@ body {
     text-align: justify;
     font-family: var(--fonte-principal);
     font-size: 25px;
-
 }
-
 
 .revistas{
     background-color: #000000;
@@ -174,3 +172,4 @@ body {
 .rodape_logo {
     align-items: center; 
 }
+
