@@ -1,0 +1,58 @@
+@import url(styles.css);
+body {
+  background-color: var(--preto-principal);
+}
+:root {
+  --swiper-theme-color: var(--vermelho-principal);
+}
+.Carrossel {
+  margin-top: 7em;
+  /* background: var(--preto-principal); */
+}
+.Carrossel__titulo {
+  background-color: var(--cor-branca);
+  color: var(--cor-laranja);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 1em 0 0.5em 0;
+}
+.swiper-slide img {
+  width: 100%;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  display: none;
+}
+
+body
+  > section.Carrossel
+  > div
+  > div.swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal {
+  position: initial;
+
+  
+}
+body > section > div > div.swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal > span.swiper-pagination-bullet.swiper-pagination-bullet-active{
+  background-color: var(--vermelho-principal);
+}
+
+
+.card {
+  background-color: var(--cor-branca);
+  box-shadow: 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin: 1em;
+  padding: 1em;
+}
+
+.card__descricao {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5em;
+}
+.card__botoes {
+  display: flex;
+  justify-content: space-between;
+}

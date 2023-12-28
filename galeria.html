@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Krona+One&family=Montserrat:wght@400;600&family=Poppins:ital,wght@0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="shortcut icon" type="imagex/png" href="./imgs/logoobirin.ico" />
+    <title>Fala Guerreira: Mulher e Mídia na Quebrada</title>
+  </head>
+
+  <header class="container">
+    <div class="cabecalho_menu">
+      <img
+        class="cabecalho_logo"
+        src="imgs/logofalaguerreira.png"
+        alt="Fala Guerreira"
+      />
+      <a class="cabecalho_link" href="index.html">HOME</a>
+      <a class="cabecalho_link" href="about.html">SOBRE</a>
+      <a class="cabecalho_link" href="galeria.html">GALERIA</a>
+      <a class="cabecalho_link" href="revistas.html">REVISTAS</a>
+      <a class="cabecalho_link" href="documentario.html">DOCUMENTÁRIO</a>
+    </div>
+  </header>
+
+  <body>
+    <section class="Carrossel">
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Additional required wrapper -->
+
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+
+          <div class="swiper-slide">
+            <img src="imgs/guerreira1.jpg" alt="livro de Front-end" />
+          </div>
+          <div class="swiper-slide">
+            <img src="imgs/guerreira2.jpg" alt="livro dos significados" />
+          </div>
+          <div class="swiper-slide">
+            <img src="imgs/guerreira3.jpg" alt="livro dos significados" />
+          </div>
+          <div class="swiper-slide">
+            <img src="imgs/guerreira4.jpg" alt="livro dos significados" />
+          </div>
+          <div class="swiper-slide">
+            <img src="imgs/guerreira5.jpg" alt="livro dos significados" />
+          </div>
+          <div class="swiper-slide">
+            <img src="imgs/guerreira6.jpg" alt="livro dos significados" />
+          </div>
+          <div class="swiper-slide">
+            <img src="imgs/guerreira7.jpg" alt="livro dos significados" />
+          </div>
+          <div class="swiper-slide">
+            <img src="imgs/guerreira8.jpg" alt="livro dos significados" />
+          </div>
+          <div class="swiper-slide">
+            <img src="imgs/guerreira9.jpg" alt="livro dos significados" />
+          </div>
+          <div class="swiper-slide">
+            <img src="imgs/guerreira10.jpg" alt="livro dos significados" />
+          </div>
+
+          <!-- <div class="swiper-slide">
+          <img src="imgs/guerreira6.jpg" alt="livro dos significados" />
+        </div> -->
+          <!-- <div class="swiper-slide">
+          <img src="img/guerreira8.jpg" alt="" />
+        </div> -->
+          <!-- <div class="swiper-slide">
+          <img src="imgs/guerreira7.jpg" alt="livro dos significados" />
+        </div> -->
+          <!-- <div class="swiper-slide"><img src="img/guerreira10.jpg" alt="" /></div> -->
+        </div>
+
+        <!-- If we need navigation buttons -->
+        <!-- <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div> -->
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+    </section>
+  </body>
+
+  <footer>
+    <div class="rodape">
+      <img src="imgs/logoobirin1.png" alt="Logo Obirin Àtinúnda" />
+    </div>
+  </footer>
+</html>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script>
+  const swiper = new Swiper(".swiper", {
+    slidesPerView: 3,
+    spaceBetween: 10,
+    pagination: {
+      el: ".swiper-pagination",
+      type: "bullets",
+    },
+  });
+</script>

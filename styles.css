@@ -1,3 +1,6 @@
+@import url(styles/galeria.css);
+
+
 
 :root{
 --vermelho-principal: #E84268;
@@ -16,6 +19,8 @@ header {
    }
 body {
     background-color:var(--branco-principal);
+    
+    
 }
 .css-geral{
     margin: 1;
