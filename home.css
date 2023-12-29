@@ -29,7 +29,7 @@
   color: var(--preto-principal);
 }
 
-/* EFEITO COM CURSOR VERMELHO  */
+/* EFEITO COM CURSOR VERMELHO  */ 
 .cabecalho_link_home:hover {
   color: var(--vermelho-principal);
 }
