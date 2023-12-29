@@ -11,7 +11,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Krona+One&family=Montserrat:wght@400;600&family=Poppins:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
-  <title>Fala Guerreira</title>
+  <link rel="shortcut icon" type="imagex/png" href="./imgs/logoobirin.ico" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <title>Fala Guerreira: Mulher e Mídia na Quebrada</title>
 </head>
 
 <header class="css-geral">
@@ -26,18 +28,76 @@
     </div>
   </div>
 
-  <div class="container_img_home">
-    <img src="imgs/Rectangle 22.png" alt="Imagem de fundo" class="imagem_de_fundo_home">
-  </div>
+  <div class="carrossel">
+    <div class="carrossel-slides">
+    <!-- Radios Buttons -->
+    <input type="radio" nome="radio-btn" id="radio1">
+    <input type="radio" nome="radio-btn" id="radio2">
+    <input type="radio" nome="radio-btn" id="radio3">
+    <input type="radio" nome="radio-btn" id="radio4">
+    <!-- Radios Buttons -->
 
-  <div class="container-img_home">
-    <img src="imgs/img-fala-guerreira-pb.jpg" alt="Mulheres Fala Guerreira" class="imagem_sobreposta_home">  
-  </div>   
+    <!-- Slider main container -->
+        <div class="swiper">
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+          <!-- Additional required wrapper -->
+  
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+  
+            <div class="swiper-slide">
+              <img src="imgs/img-fala-guerreira-pb.jpg" alt="Mulheres Fala Guerreira" />
+            </div>
+            <div class="swiper-slide">
+              <img src="imgs/homeimg.jpg" alt="Mulheres Fala Guerreira" />
+            </div>
+            <div class="swiper-slide">
+              <img src="imgs/printC.png" alt="Mulheres Fala Guerreira" />
+            </div>
+            <div class="swiper-slide">
+              <img src="imgs/imghomeimg.jpg" alt="Mulheres Fala Guerreira" />
+            </div>
+          </div>
+        <footer class="rodape">
+          <div>
+            <img src="imgs/logoobirin1.png" alt="Logo Obirin">
+          </div>
+        </footer>
+  
+          <!-- If we need navigation buttons  -->
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+          </div>
+
+          <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+          </div>
+          <!-- <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div> -->
+  
+          <!-- If we need scrollbar -->
+          <div class="swiper-scrollbar"></div>
+        </div>
+      </div>
+  </div>
 </header>
-
- <footer>
-  <div class="rodape_home">
-    <img src="imgs/logoobirin1.png" alt="Logo Obirin Àtinúnda">
-  </div>
- </footer>
+  </html>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".swiper", {
+      slidesPerView: 3,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        type: "bullets",
+      },
+    });
+  </script>
 </html>

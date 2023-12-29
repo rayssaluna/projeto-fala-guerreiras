@@ -1,3 +1,5 @@
+@import url(index.html);
+
 :root {
   --vermelho-principal: #dd0404;
   --preto-principal: #000000;
@@ -8,10 +10,8 @@
 .cabecalho_menu_home {
   display: flex;
   justify-content: left;
-  font-weight: 700;
-  margin: 1em 50em 1em 1em;
-  width: 63em;
-  height: 10%;
+  font-weight: 400;
+  margin: 0 0 0 1em;
 }
 
 /* EFEITO DE SOMBRA VERMELHO FALA GUERREIRA*/
@@ -35,37 +35,43 @@
 }
 /* EFEITO COM CURSOR VERMELHO */
 
-.container_img_home {
-  padding: 0;
-  display: inline-block;
-  margin: 4px;
+.carrossel{
+  margin: 2em auto;
+  width: 800px;;
+  height: 400px;
+  overflow: hidden;
 }
 
-.container_img_home {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  object-fit: cover;
+.carrossel-slides{
+  width: 400%;
+  height: 400px;
+  display: flex;
 }
 
-.imagem_sobreposta_home {
+.carrossel-slides input{
+  display: none;
+}
+
+.swiper-slide{
+  width: 25%;
   position: relative;
-  top: 10%;
-  left: 13%;
-  width: 75%;
-  height: 80%;
-  object-fit: fill;
-  filter: drop-shadow(2px 2px 2px #ffff);
 }
 
-/* NÃO MEXER POIS AINDA VOU IDENTIFICAR O ERRO 
-.rodape_home{ 
-    display:flex;
-    justify-content: center;
-    margin: 1em 0 0 5em;
-    gap: 10%;
-    background: white;
-    width: 241px;
-    height: 94.446px;
-    box-shadow: 0 1px 25px var(--preto-principal); 
-}*/
+.swiper-slide img{
+  width: 800px;
+}
+
+.manual-navigation{
+  position: absolute;
+  width: 800px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.manual-btn{
+  border: 2px solid #000000;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
