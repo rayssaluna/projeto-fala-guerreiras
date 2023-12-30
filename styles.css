@@ -17,8 +17,6 @@ header {
    }
 body {
     background-color:var(--preto-principal);
-    
-    
 }
 .css-geral{
     margin: 1;
@@ -54,6 +52,7 @@ body {
   height: 94.446px; 
   margin: 2em 70 2em 0;
 }
+
 .index{
     background-color: var(--preto-principal);
     display: grid;
