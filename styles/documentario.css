@@ -48,7 +48,6 @@
         margin: 2em 5em 2em 2em;
     }
     .cabecalho_logo {
-      
       justify-content: center;
       width: 241px;
       height: 94.446px; 
@@ -64,9 +63,9 @@
 }
 .documentario_img{
     width: 562px;
-    height: 135px; 
-    
+    height: 135px;   
 }
+
 .documentario_texto{
     background-color: #D7D7D7;
     border-radius: 1px;
