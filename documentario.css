@@ -1,57 +1,59 @@
 
 :root{
---vermelho-principal: #E84268;
---preto-principal: #000000;
---branco-principal:#ffff;
---fonte-principal: 'Inter', sans-serif;
-}
-
-header {
-    background: #fff;
-    display: inline-block;
-    width: 100%;
-    height: 5%;
-    top: 0;
-    left: auto;
-   }
-
-   
-body {
-    background-color:var(--branco-principal);
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.css-geral{
-    margin: 1;
-    padding: 0;
-    height: 50%;
-}
-.cabecalho_menu {
-    display: inline-block;
-    justify-content:  center;
-    font-family: var(--fonte-principal);
-    width: 104,9rem;
-    height: 59,8rem;
-}
-.cabecalho_link {
-    text-decoration: none;
-    text-align: center;
-    color: var(--preto-principal);
-    margin: 2em 0 2em 0;
-}
-
-.cabecalho_link_home {
-    color:#E84268;
-    text-decoration: none;
-    margin: 2em 5em 2em 2em;
-}
-.cabecalho_logo {
-  display: flex;
-  width: 241px;
-  height: 94.446px; 
-  margin: 2em 1em 2em 0;
-}
+    --vermelho-principal: #E84268;
+    --preto-principal: #000000;
+    --branco-principal:#ffff;
+    --fonte-principal: 'Inter', sans-serif;
+    }
+    
+    header {
+        background: #fff;
+        position: fixed;
+        width: 100%;
+        height: 5%;
+        top: 0;
+        left: auto;
+       }
+    body {
+        background-color:var(--branco-principal);
+        
+        
+    }
+    .css-geral{
+        margin: 1;
+        padding: 0;
+        height: 50%;
+    }
+    .cabecalho_menu {
+        display: grid;
+        grid-template-columns: 10% 4% 4% 4% 4% 4%;
+        justify-content:  center;
+        font-family: var(--fonte-principal);
+        background: white;
+        background-size: contain;
+        margin: 0 10 0em 70;
+        width: 104,9rem;
+        height: 59,8rem;
+    }
+    .cabecalho_link {
+        text-decoration: none;
+        text-align: center;
+        color: var(--preto-principal);
+        margin: 2em 0 2em 0;
+    }
+    
+    .cabecalho_link_home {
+        color:var(--vermelho-principal);
+        text-decoration: none;
+        margin: 2em 5em 2em 2em;
+    }
+    .cabecalho_logo {
+      
+      justify-content: center;
+      width: 241px;
+      height: 94.446px; 
+      margin: 2em 70 2em 0;
+    }
 
 .documentario {
     background-color: #000000;
