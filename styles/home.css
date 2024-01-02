@@ -90,4 +90,8 @@
 }
 #radio1:checked ~ .first {
   margin-left: -25%;
+<<<<<<< HEAD:home.css
 }
+=======
+}
+>>>>>>> c56ff6760b1108adfb96757d42f4cf400459c147:styles/home.css

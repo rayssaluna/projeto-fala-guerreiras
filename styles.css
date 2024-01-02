@@ -16,9 +16,7 @@ header {
     left: auto;
    }
 body {
-    background-color:var(--branco-principal);
-    
-    
+    background-color:var(--preto-principal);
 }
 .css-geral{
     margin: 1;
@@ -49,12 +47,12 @@ body {
     margin: 2em 5em 2em 2em;
 }
 .cabecalho_logo {
-  
   justify-content: center;
   width: 241px;
   height: 94.446px; 
   margin: 2em 70 2em 0;
 }
+
 .index{
     background-color: var(--preto-principal);
     display: grid;
