@@ -29,48 +29,44 @@
   color: var(--preto-principal);
 }
 
-/* EFEITO COM CURSOR VERMELHO  */ 
+/* EFEITO COM CURSOR VERMELHO  */
 .cabecalho_link_home:hover {
   color: var(--vermelho-principal);
 }
 /* EFEITO COM CURSOR VERMELHO */
 
-.carrossel{
+.carrossel {
   margin: 2em auto;
-  width: 900px;;
+  width: 900px;
   height: 500px;
   overflow: hidden;
-  
 }
-
-.carrossel-slides{
+/* raquellll*/
+.carrossel-slides {
   width: 300%;
   height: 450px;
   display: flex;
   justify-content: center;
 }
 
-.carrossel-slides input{
+.carrossel-slides input {
   display: none;
-  
 }
 
-.swiper-slide{
+.swiper-slide {
   width: 25%;
   position: relative;
- 
 }
 
-.swiper-slide img{
+.swiper-slide img {
   width: 800px;
 }
 
-.manual-navigation{
+.manual-navigation {
   position: absolute;
   width: 800px;
   margin-top: -230px;
   display: flex;
- 
 }
 
 .manual-btn {
@@ -81,18 +77,17 @@
   transition: 0.7s;
 }
 
-.manual-btn:not(:last-child){
+.manual-btn:not(:last-child) {
   margin-right: 40px;
 }
 
-.manual-btn:hover{
+.manual-btn:hover {
   background-color: #dd0404;
 }
 
-#radio1:checked ~ .first{
+#radio1:checked ~ .first {
   margin-left: 0;
 }
-#radio1:checked ~ .first{
+#radio1:checked ~ .first {
   margin-left: -25%;
 }
-
