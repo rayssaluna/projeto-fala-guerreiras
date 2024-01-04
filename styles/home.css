@@ -133,9 +133,13 @@ figure img {
   height: 20%;
 }
 
-footer img {
-  width: 150px;
-  height: 100%;
-  margin-top: 10px;
-  margin-left: 50px;
-}                              
+#radio1:checked ~ .first {
+  margin-left: 0;
+}
+#radio1:checked ~ .first {
+  margin-left: -25%;
+<<<<<<< HEAD:home.css
+}
+=======
+}
+>>>>>>> c56ff6760b1108adfb96757d42f4cf400459c147:styles/home.css
