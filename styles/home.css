@@ -1,5 +1,3 @@
-@import url(index.html);
-
 :root {
   --vermelho-principal: #dd0404;
   --preto-principal: #000000;
@@ -7,87 +5,137 @@
   --fonte-principal: "Inter", sans-serif;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+header {
+  width: 100%;
+  height: 130px;
+}
+
 .cabecalho_menu_home {
-  display: flex;
-  justify-content: left;
-  font-weight: 400;
-  margin: 0 0 0 1em;
-}
-
-/* EFEITO DE SOMBRA VERMELHO FALA GUERREIRA*/
-.cabecalho_logo {
-  box-shadow: 0 2px var(--preto-principal);
-  filter: drop-shadow(0 2px 1px rgb(243, 62, 62));
-}
-/* EFEITO DE SOMBRA VERMELHO FALA GUERREIRA */
-
-.cabecalho_link_home {
-  display: block;
-  justify-content: center;
-  text-decoration: none;
+  width: 135px;
+  height: 45px;
+  float: left;
   text-align: center;
+  display: flex;
+  margin-top: 120px;
+  margin-left: 10px;
+  margin-right: auto;
+  box-sizing: border-box;
   color: var(--preto-principal);
+
 }
 
-/* EFEITO COM CURSOR VERMELHO  */
-.cabecalho_link_home:hover {
+.cabecalho_menu_home a {
+  color: var(--preto-principal);
+  text-decoration: none;
+}
+
+.cabecalho_menu_home a:hover {
+  color: var(--vermelho-principal);
+  font-size: 1.2em;
+  height: 55px;
+  transition: 0.5s;
+  width: 10px;
+  padding-top: -5px;
+  box-sizing: border-box;
+  pointer-events: painted;
+}
+
+#containerMenu {
+  width: auto;
+  height: 100px;
+  box-sizing: border-box;
+  padding: 10px;
+  float: left;
+}
+
+#logo {
+  width: 260px;
+  height: 130px;
+  border: solid 1px var(--preto-principal);
+  float: left;
+  margin: 20px;
+  background-image: url(../imgs/logofalaguerreira.png);
+  background-repeat: no-repeat;
+}
+
+.bodyHome {
+  width: inherit;
+  height: 500px;
+  background-color: var(--preto-principal);
+  margin-top: 10%;
+}
+
+#slideHome {
+  width: 100%;
+  height: 400px;
+  float: left;
+  margin-bottom: 30px;
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+}
+
+figure {
+  width: 600px;
+  height: 300px;
+  margin-left: 100px;
+  margin-right: 100px;
+  float: left;
+  justify-content: center;
+}
+
+figure img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-content: center;
+  border-radius: 10px;
+  float: left;
+}
+
+#previous,
+#next {
+  position: absolute;
+  width: 35px;
+  height: 300px;
+  z-index: 970;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 3.2em;
+  float: left;
+  margin-top: 350px;
   color: var(--vermelho-principal);
 }
-/* EFEITO COM CURSOR VERMELHO */
 
-.carrossel {
-  margin: 2em auto;
-  width: 900px;
-  height: 500px;
-  overflow: hidden;
-}
-/* raquellll*/
-.carrossel-slides {
-  width: 300%;
-  height: 450px;
-  display: flex;
-  justify-content: center;
+#previous {
+  margin-left: 80px;
 }
 
-.carrossel-slides input {
-  display: none;
+#next {
+  margin-left: 1100px;
 }
 
-.swiper-slide {
-  width: 25%;
-  position: relative;
-}
-
-.swiper-slide img {
-  width: 800px;
-}
-
-.manual-navigation {
-  position: absolute;
-  width: 800px;
-  margin-top: -230px;
-  display: flex;
-}
-
-.manual-btn {
-  border: 2px solid #dd1111;
-  padding: 5px;
-  border-radius: 10px;
+#previous:hover,
+#next:hover {
   cursor: pointer;
-  transition: 0.7s;
+  transition: 1.5s;
 }
 
-.manual-btn:not(:last-child) {
-  margin-right: 40px;
+.rodape {
+  background: white;
+  justify-content: space-around;
+  height: 20%;
 }
 
-.manual-btn:hover {
-  background-color: #dd0404;
-}
-
-#radio1:checked ~ .first {
-  margin-left: 0;
-}
-#radio1:checked ~ .first {
-  margin-left: -25%;
-}
+footer img {
+  width: 150px;
+  height: 100%;
+  margin-top: 10px;
+  margin-left: 50px;
+}                              

@@ -4,81 +4,70 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="styles/home.css">
   <link rel="stylesheet" href="/projeto-fala-guerreiras/reset.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Krona+One&family=Montserrat:wght@400;600&family=Poppins:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Krona+One&family=Montserrat:wght@400;600&family=Poppins:ital,wght@0,700;1,400&display=swap"
+    rel="stylesheet">
   <link rel="shortcut icon" type="imagex/png" href="./imgs/logoobirin.ico" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-  <title>Fala Guerreira: Mulher e Mídia na Quebrada</title>
+  <title>Fala Guerreira</title>
 </head>
 
-<header class="css-geral">
-  <div class="container">
-    <div class="cabecalho_menu_home">
-      <img class="cabecalho_logo" src="imgs/logofalaguerreira.png"  alt="Fala Guerreira">
-      <a class="cabecalho_link_home" href="index.html">HOME</a>
-      <a class="cabecalho_link_home" href="about.html">SOBRE</a>
-      <a class="cabecalho_link_home" href="galeria.html">GALERIA</a>
-      <a class="cabecalho_link_home" href="revistas.html">REVISTAS</a>
-      <a class="cabecalho_link_home" href="documentario.html">DOCUMENTÁRIO</a>
+<body>
+  <header class="css-geral">
+    <div id="logo"></div>
+    <div id="containerMenu">
+      <div class="cabecalho_menu_home">
+        <a class="cabecalho_link_home" href="index.html">HOME</a>
+        <a class="cabecalho_link_home" href="about.html">SOBRE</a>
+        <a class="cabecalho_link_home" href="galeria.html">GALERIA</a>
+        <a class="cabecalho_link_home" href="revistas.html">REVISTAS</a>
+        <a class="cabecalho_link_home" href="documentario.html">DOCUMENTÁRIO</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="bodyHome">
+    <div id="slideHome" class="alinhamentoAoCentro">
+      <ul>
+        <li>
+          <figure>
+            <img src="imgs/img-fala-guerreira-pb.jpg" alt="Mulheres Fala Guerreira" />
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="imgs/homeimg.jpg" alt="Mulheres Fala Guerreira" />
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="imgs/printC.png" alt="Mulheres Fala Guerreira" />
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="imgs/imghomeimg.jpg" alt="Mulheres Fala Guerreira" />
+          </figure>
+        </li>
+      </ul>
+      <div id="previous"> &laquo; </div>
+      <div id="next"> &raquo; </div>
     </div>
   </div>
 
-  <div class="carrossel">
 
-    <div class="carrossel-slides">
+  <footer>
+    <div class="rodape">
+      <img src="imgs/logoobirin.ico" alt="Logo Obirin Àtinúnda" />
+    </div>
+  </footer>
 
+  <script src="js/jquery.js"></script>
+  <script src="js/jqueryCycle.js"></script>
+  <script src="js/funcaoSlide.js"></script>
 
-    <!-- Slider main container -->
-        <div class="swiper">
-          <!-- If we need pagination -->
-          <div class="swiper-pagination"></div>
-          <!-- Additional required wrapper -->
-  
-          <div class="swiper-wrapper">
-            <!-- Slides -->
-  
-            <div class="swiper-slide">
-              <img src="imgs/img-fala-guerreira-pb.jpg" alt="Mulheres Fala Guerreira" />
-            </div>
-            <div class="swiper-slide">
-              <img src="imgs/homeimg.jpg" alt="Mulheres Fala Guerreira" />
-            </div>
-            <div class="swiper-slide">
-              <img src="imgs/printC.png" alt="Mulheres Fala Guerreira" />
-            </div>
-            <div class="swiper-slide">
-              <img src="imgs/imghomeimg.jpg" alt="Mulheres Fala Guerreira" />
-            </div>
+</body>
 
-            <!-- If we need navigation buttons  -->
-
-        </div>
-        </div>
-
-          <!-- <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div> -->
-    
-          <!-- If we need scrollbar -->
-          <div class="swiper-scrollbar"></div>
-        </div>
-      </div>
-    
-</header>
-  </html>
-  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-  <script>
-    const swiper = new Swiper(".swiper", {
-      slidesPerView: 3,
-      spaceBetween: 10,
-      pagination: {
-        el: ".swiper-pagination",
-        type: "bullets",
-      },
-    });
-  </script>
 </html>
