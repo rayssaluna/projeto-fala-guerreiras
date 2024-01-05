@@ -17,6 +17,7 @@ header {
 }
    
 body {
+    margin: 0%;
     background-color:var(--preto-principal);
 }
 .css-geral{
@@ -26,8 +27,8 @@ body {
 }
 .cabecalho_menu {
     display: grid;
-    grid-template-columns: 10% 4% 4% 4% 4% 4%;
-    justify-content:  center;
+    grid-template-columns: 40% 8% 8% 8% 8% 8%;
+    justify-content: flex-start;
     font-family: var(--fonte-principal);
     background: white;
     background-size: contain;
@@ -99,7 +100,6 @@ body {
     font-family: var(--fonte-principal);
     font-size: 25px;
 }
-
 .revistas{
     background-color: #000000;
     display: flex;
