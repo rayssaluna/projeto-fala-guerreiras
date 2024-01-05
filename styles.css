@@ -36,6 +36,7 @@ body {
     width: 104,9rem;
     height: 59,8rem;
 }
+
 .cabecalho_link {
     text-decoration: none;
     text-align: center;
@@ -167,11 +168,11 @@ body {
     justify-content: space-around;
   
 }
-.rodape_falag {
-  align-items: center; 
+.rodape img {
+  width: 207px; 
+  height: 163px; 
+  align:left
+
 }
 
-.rodape_logo {
-    align-items: center; 
-}
 
