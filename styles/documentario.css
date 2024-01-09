@@ -48,8 +48,8 @@ body{
 }
 
 .documentario_img {
-    width: 562px;
-    height: 135px;
+    width: 1124px;
+    height: 270px;
 }
 .documentario img {
     box-shadow: 50px 0px 80px 2px #F54952;
@@ -60,7 +60,7 @@ body{
     border-radius: 5px;
     margin: 7em;
     border: solid 2px #F54952;
-    padding: 2em;
+    padding: 2vw;
     text-align: justify;
     font-family: var(--fonte-principal);
     font-size: 16px;
