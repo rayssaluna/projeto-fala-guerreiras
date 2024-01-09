@@ -64,10 +64,13 @@ body {
     justify-content: center;
 }
 
+.container__about-img{
+    margin: 2vw;
+}
 .texto p{
     background-color: #D7D7D7;
     border-radius: 1px;
-    margin: 7em;
+    margin: 7vw;
     border: solid 2px #F54952;
     padding: 2em;
     text-align: justify;
