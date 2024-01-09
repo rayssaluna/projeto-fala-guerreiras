@@ -5,6 +5,41 @@
 :root {
   --swiper-theme-color: var(--vermelho-principal);
 }
+body{
+  display: flex;
+  flex-direction: column;
+  
+}
+.cabecalho_menu {
+  width: 100%;
+  height: 20%;
+  text-align: center;
+  display: flex;
+  margin-left: 10px;
+  color: var(--preto-principal);
+  background-color:white;
+        
+}
+.menu {
+  margin-left: 20%;
+  align-items: center;
+  display: flex;
+}
+
+.cabecalho_link {
+  color: var(--preto-principal);
+  text-decoration: none;
+  padding: 2em;
+  font-size: 25px;
+  
+}
+
+.cabecalho_link:hover {
+  font-size: 1.2em;
+  height: 5px;
+  transition: 0.5s;
+
+}
 
 .Carrossel {
   margin-top: 7em;
