@@ -1,4 +1,4 @@
-@import url(styles/galeria.css);
+
 
 :root{
 --vermelho-principal: #E84268;
@@ -11,9 +11,12 @@ header {
     background: #fff;
     position: fixed;
     width: 100%;
-    height: 5%;
+    height: 80px;
     top: 0;
     left: auto;
+    z-index: 1000;
+    display: block;
+    overflow: hidden;
 }
    
 body {
@@ -32,9 +35,9 @@ body {
     font-family: var(--fonte-principal);
     background: white;
     background-size: contain;
-    margin: 0 10 0em 70;
-    width: 104,9rem;
-    height: 59,8rem;
+  
+    width: 100%;
+    
 }
 
 .cabecalho_link {
@@ -52,15 +55,14 @@ body {
 .cabecalho_logo {
   justify-content: center;
   width: 241px;
-  height: 94.446px; 
-  margin: 2em 70 2em 0;
+  height: 70px; 
 }
 
 .container_about{
     background-color: #000000;   
-    /*display:grid;
+    
     grid-template-columns:50% 50% ;
-    padding: 7em 20em 7em 20em;*/
+    
     display: flex;
     padding: 7em 0 0 20em;
     align-items:center;
