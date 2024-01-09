@@ -2,15 +2,14 @@
 /* body {
   background-color: var(--preto-principal);
 } */
+
 :root {
   --swiper-theme-color: var(--vermelho-principal);
-
 .Carrossel {
   margin-top: 7em;
   background-color: black;
   /* background: var(--preto-principal); */
 }
-
 .swiper-slide img {
   width: 90%;
   margin: 0 1em;
