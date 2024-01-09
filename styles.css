@@ -35,7 +35,6 @@ body {
     font-family: var(--fonte-principal);
     background: white;
     background-size: contain;
-  
     width: 100%;
 }
 .cabecalho_link {
@@ -58,9 +57,7 @@ body {
 
 .container_about{
     background-color: #000000;   
-    
     grid-template-columns:50% 50% ;
-    
     display: flex;
     padding: 7em 0 0 20em;
     align-items:center;
@@ -89,7 +86,7 @@ body {
     height: 340px;
     /* cima direita embaixo esquerda */
     padding: 10em 2em 10em 2em; 
-}
+    }
 
 .rodape {
     padding: 5px;
