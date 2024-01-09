@@ -14,8 +14,8 @@
 }
 
 .documentario_img {
-    width: 562px;
-    height: 135px;
+    width: 1124px;
+    height: 270px;
 }
 
 .documentario_texto {
@@ -23,7 +23,7 @@
     border-radius: 1px;
     margin: 7em;
     border: solid 2px #F54952;
-    padding: 2em 10vw;
+    padding: 2vw;
     text-align: justify;
     font-family: var(--fonte-principal);
     font-size: 20px;

@@ -52,7 +52,8 @@ body {
 .cabecalho_logo {
   justify-content: center;
   width: 241px;
-  height: 70px; 
+  height: 70px;
+  margin: auto;
 }
 
 .container__about{
