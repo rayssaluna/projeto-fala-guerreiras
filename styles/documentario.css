@@ -42,7 +42,7 @@ body{
 .documentario {
     background-color: #000000;
     display: flex;
-    padding: 7em 0 0 7em;
+    padding: 7em 0 0 20em;
     align-items: center;
     justify-content: center;
 }
