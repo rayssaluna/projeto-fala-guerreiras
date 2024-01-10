@@ -50,10 +50,11 @@ body{
 .documentario_img {
     width: 1124px;
     height: 270px;
+   
 }
 .documentario img {
-    box-shadow: 50px 0px 80px 2px #F54952;
-}
+    border: 2px solid #f54952;
+    }
 
 .documentario_texto {
     background-color: #D7D7D7;
