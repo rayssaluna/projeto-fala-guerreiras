@@ -1,25 +1,28 @@
-
-.container_about {
-background-color:black; 
-align-items:center;
-justify-content: center;
-display: flex;
-    /*gap: 15px;*/
+.container_about{
+    background-color: #000000;   
+    grid-template-columns:50% 50% ;
+    display: flex;
+    padding: 7em 0 0 20em;
+    align-items:center;
+    justify-content: center;
+    border-radius: 10px;
 }
 
 .container_about_img{
-border: 2px solid #f54952;
+/* border: 2px solid #f54952; */
+border-radius: 10px;
 }
 
 .container_texto {
 background-color: #D7D7D7;
 width: 100%;
 padding: 2em;
-margin:0.5em 0 2em 0;
+margin:0.5em 5em 2em 0;
 border-radius: 5px;
-border: 2px solid #f54952;
+/* border: 2px solid #f54952; */
 align-items:center;
-    justify-content: center;
+justify-content: center;
+border-radius: 10px;
 
 }
 .container_texto p{
