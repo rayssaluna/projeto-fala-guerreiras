@@ -1,39 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./styles/cabecalho.css" />
+  <link rel="stylesheet" href="./styles/rodape.css" />
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="stylesheet" href="./styles/home.css">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Krona+One&family=Montserrat:wght@400;600&family=Poppins:ital,wght@0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="shortcut icon" type="imagex/png" href="./imgs/logoobirin.ico" />
   <title>Fala Guerreira</title>
-
 </head>
 
-<header class="container">
- <div class="cabecalho_menu">
-  <a class="cabecalho_link" href="index.html">Home</a>
-  <a class="cabecalho_link" href="sobre.html">Sobre</a>
-  <a class="cabecalho_link" href="galeria.html">Galeria</a>
-  <a class="cabecalho_link" href="revistas.html"> Revistas </a>
- </div>
+<body>
 
-<div class="container-img">
-  <img src="imgs/Captura de Tela (145) 1.svg" alt="Imagem de fundo" class="imagem-de-fundo">
-  <img src="imgs/pingpong-mulheres-negras-decidem-CAPA 1.svg" alt="Mulheres Fala Guerreira" class="imagem-sobreposta">
-</div>
-</header>
+  <script src="./js/topo.js"></script>
+  
+   
+  <div class="bodyHome">
+    <div id="slideHome" class="alinhamentoAoCentro">
+      <ul>
+        <li>
+          <picture>
+            <img src="imgs/img-fala-guerreira-pb.jpg" alt="Mulheres Fala Guerreira" />
+          </picture>
+        </li>
+        <li>
+          <picture>
+            <img src="imgs/homeimg.jpg" alt="Mulheres Fala Guerreira" />
+          </picture>
+        </li>
+        <li>
+          <picture>
+            <img src="imgs/printC.png" alt="Mulheres Fala Guerreira" />
+          </picture>
+        </li>
+        <li>
+          <picture>
+            <img src="imgs/imghomeimg.jpg" alt="Mulheres Fala Guerreira" />
+          </picture>
+        </li>
+      </ul>
+      <div id="previous"> &laquo; </div>
+      <div id="next"> &raquo; </div>
+    </div>
+  </div>
 
-<footer class="rodape">
- <div class="rodape-primario">
-   <a class="rodape_link_navegacao" href="https://linkedin.com/falaguerreira">
-      <img src="./imgs/linkedin 1.svg">
-   <a class="rodape_link_navegacao" href="https://twitter.com/falaguerreira">
-      <img src="./imgs/twitter 1.svg">
-   <a class="rodape_link_navegacao" href="https://ins.com/falaguerreira">
-       <img src="./imgs/ins 1.svg">
-   </div>
-  <div class="rodape-secundario">
-       <img src="imgs/Captura de Tela (153) 3.svg"  alt="Fala Guerreira">
- </div>
-</footer>
+  <script src="js/jquery.js"></script>
+  <script src="js/jqueryCycle.js"></script>
+  <script src="js/funcaoSlide.js"></script>
+<script src="./js/footer.js"></script>
+</body>
+
 </html>

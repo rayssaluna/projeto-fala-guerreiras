@@ -1,0 +1,38 @@
+@import url("./styles/revista.css");
+@import url("./styles/about.css");
+@import url("./styles/documentario.css");
+@import url("./styles/home.css");
+@import url("./styles/galeria.css");
+@import url("./cabecalho.css");
+@import url("./rodape.css");
+
+:root{
+--vermelho-principal: #E84268;
+--preto-principal: #000000;
+--branco-principal:#ffff;
+--fonte-principal: 'Inter', sans-serif;
+--swiper-theme-color: var(--vermelho-principal);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+.texto p{
+    background-color: #D7D7D7;
+    border-radius: 1px;
+    margin: 7em;
+    border: solid 2px #F54952;
+    padding: 2em;
+    text-align: justify;
+    font-family: var(--fonte-principal);
+    font-size: 25px;
+}
+
+
+
