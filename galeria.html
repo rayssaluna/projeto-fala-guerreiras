@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/galeria.css" />
+    <link rel="stylesheet" href="./styles/cabecalho.css" />
+    <link rel="stylesheet" href="./styles/rodape.css" />
+    <link rel="stylesheet" href="/projeto-fala-guerreiras/styles/galeria.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/projeto-fala-guerreiras/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Krona+One&family=Montserrat:wght@400;600&family=Poppins:ital,wght@0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="shortcut icon" type="imagex/png" href="./imgs/logoobirin.ico" />
+    <title>Fala Guerreira</title>
+  </head>
+
+  <body>
+    <script src="./js/topo.js"></script>
+    <section class="Carrossel">
+
+      <div class="swiper">
+
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-wrapper">
+          
+
+          <div class="swiper-slide">
+            <img src="imgs/revista2.jpg" alt="livro de Front-end" />
+          </div>
+          <div class="swiper-slide">
+            <img src="imgs/revista1.jpg" alt="livro dos significados" />
+          </div>
+          <div class="swiper-slide">
+            <img src="imgs/revista3.jpg" alt="livro dos significados" />
+          </div>
+          <div class="swiper-slide">
+            <img src="imgs/revista4.jpg" alt="livro dos significados" />
+          </div>
+          <div class="swiper-slide">
+            <img src="imgs/revista5.jpg" alt="livro dos significados" />
+          </div>
+          <div class="swiper-slide">
+            <img src="imgs/revista7.jpg" alt="livro dos significados" />
+          </div>
+          <div class="swiper-slide">
+            <img src="imgs/revista8.jpg" alt="livro dos significados" />
+          </div>
+          <div class="swiper-slide">
+            <img src="imgs/revista9.jpg" alt="livro dos significados" />
+          </div>
+          <div class="swiper-slide">
+            <img src="imgs/revista10.jpg" alt="livro dos significados" />
+          </div>
+          <div class="swiper-slide">
+            <img src="imgs/revista11.jpg" alt="livro dos significados" />
+          </div>
+        </div>
+        <div class="swiper-scrollbar"></div>
+      </div>
+    </section>
+    <script src="./js/footer.js"></script>
+  </body>
+</html>
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script>
+  const swiper = new Swiper(".swiper", {
+    slidesPerView: 3,
+    spaceBetween: 10,
+    pagination: {
+      el: ".swiper-pagination",
+      type: "bullets",
+    },
+  });
+</script>

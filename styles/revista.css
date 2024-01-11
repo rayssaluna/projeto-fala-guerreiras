@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.revistas{
+    background-color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.revistas img{
+    width: 220px;
+    height: 340px;
+    /* cima direita embaixo esquerda */
+    padding: 10em 2em 10em 2em; 
+}
+
+.revistas{
+  background-color: #000000;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.revistas img{
+  width: 220px;
+  height: 340px;
+  /* cima direita embaixo esquerda */
+  padding: 10em 2em 10em 2em; 
+  }

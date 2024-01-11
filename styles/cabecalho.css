@@ -1,0 +1,72 @@
+.topo{
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  background-color:var(--branco-principal);
+  height:120px;
+
+}
+.logo img{
+  width: 300px;
+  object-fit: contain;
+  height: 100px;
+
+}
+
+.menu{
+  display:flex;
+  margin-right:20%;
+}
+
+.nav{
+  display:flex;
+}
+
+nav ul{
+  list-style:none;
+  display:flex;
+}
+
+nav ul li a{
+  text-decoration:none;
+  color:var(--preto-principal);
+  padding:0 2em 0 2em;
+  font-size: 25px;
+  font-family: var(--fonte-principal);
+  text-transform:uppercase;
+  display
+}
+
+nav ul li a:hover{
+  font-size: 1.2em;
+  height: 5px;
+  transition: 0.5s;
+
+}
+
+
+.cabecalho_logo {
+  justify-content: center;
+  width: 241px;
+  height: 70px; 
+  margin:auto;
+}
+
+.menu {
+    margin-left: 20%;
+    align-items: center;
+    display: flex;
+}*/
+
+
+  
+
+
+
+  
+
+  
+
+
+  
+  
